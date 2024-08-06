@@ -1,0 +1,31 @@
+/*
+ * Stephie Liu
+ * 2022-05-29
+ * A GUI program to simulate Pong. There is a timer for tracking how
+ * long it takes for the user to finish the game, and a ranking system based
+ * on the time taken. Also includes paddle physics (if your paddle is in motion during contact, the ball speed increases too).
+ */
+package pongguiassignment;
+
+/**
+ *
+ * @author steph
+ */
+//import statements
+import java.awt.*;
+import javax.swing.*;
+public class GameFrame extends JFrame{
+    GamePanel panel;
+    
+    public GameFrame(){
+        panel = new GamePanel(); //run GamePanel constructor
+        this.add(panel);
+        this.setTitle("GUI is cool!"); //set title for frame
+        this.setResizable(false); //frame can't change size
+        this.setBackground(Color.DARK_GRAY);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //X button will stop program execution
+        this.pack();//makes components fit in window; don't need to set JFrame size, as it will adjust accordingly
+        this.setVisible(true); //makes window visible to user
+        this.setLocationRelativeTo(null);//set window in middle of screen
+    }
+}
