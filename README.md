@@ -1,5 +1,5 @@
 # PongGUI_Project
 
-Old ICS assignment (completed in 2022)
+Archived ICS assignment (completed in 2022)
 
 Interactive 2-person pong game coded in Java. Keyboard-controlled (W/S and arrow keys) and accounts for game paddle physics.
