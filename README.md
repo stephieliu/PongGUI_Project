@@ -1,4 +1,4 @@
-# PongGUI_Assignment
+# PongGUI_Project
 
 Old ICS assignment (completed in 2022)
 
